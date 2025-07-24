@@ -15,7 +15,7 @@ const port = process.env.PORT || 5000;
 const host = process.env.HOST || 'localhost';
 app.use(express.json());
 
-app.use(cors(process.env.FRONTEND_URI));
+app.use(cors(process.env.FRONTEND_URI || 'https://business-nexus-one.vercel.app'));
 
 
 
