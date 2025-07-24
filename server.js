@@ -51,7 +51,6 @@ io.on("connection", (socket) => {
 // Export `io` if needed in routes
 export { io };
 
-
 //import routers
 import userRouter from './routes/user.js';
 import profileRouter from './routes/profile.js';
